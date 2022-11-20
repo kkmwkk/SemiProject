@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Noto Sans KR";
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+table.bodyTable {
+   border: none;
+   border-collapse: collapse;
+   border-top: 1px solid #d9d9d9;
+   margin:auto;
+}
+
+table.buttonTable{
+   margin:auto;
+}
+
+table.bodyTable tr th {
+   background-color: #f8f8f8;
+   width: 10%;
+}
+
+table.bodyTable tr th, table.bodyTable tr td {
+   padding: 10px;
+   border-bottom: 1px solid #d9d9d9;
+}
+
+h2{
+   font-weight:bold;
+}
+
+.button {
+    display: block;
+    width: 115px;
+    height: 35px;
+    background: #23a3a7;
+    padding: 10px;
+    margin:20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    float:left;
+}
+
+.button2 {
+    display: block;
+    width: 115px;
+    height: 35px;
+    background-color: #D3D3D3;
+    padding: 10px;
+    margin:20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    float:left;
+}
+
+.radiobtn input[type="radio"]{
+  display:none;
+}
+
+.radiobtn input[type="radio"] + span{
+  display:inline-block;
+  background:none;
+  border:1px solid #dfdfdf;  
+  padding:0px 10px;
+  text-align:center;
+  height:35px;
+  line-height:33px;
+  font-weight:500;
+  cursor:pointer;
+}
+
+.radiobtn input[type="radio"]:checked + span{
+  border:1px solid #23a3a7;
+  background:#23a3a7;
+  color:#fff;
+}
